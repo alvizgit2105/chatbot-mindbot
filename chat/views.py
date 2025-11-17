@@ -6,9 +6,11 @@ import cohere
 import traceback
 import re
 import os
+from dotenv import load_dotenv
 
-# 🔑 Replace this with your actual Cohere API key
-cohere_api_key = 'hZqfHGEHE0ids6W2osjZ38zPEtz1y5Y5z6MyejnP'
+# ✅ Load environment variables
+load_dotenv()
+cohere_api_key = os.getenv("COHERE_API_KEY")
 
 # ✅ View to render the chat interface page
 def chat_page(request):

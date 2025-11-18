@@ -1,5 +1,10 @@
-<<<<<<< HEAD
-# Chatbot
-=======
-# chatbot-mindbot
->>>>>>> acd3fd3b61ed6f66f7e4749394a6e522bd9fb298
+# ChatBot-MindBot
+# Features
+  - Question and answer
+  - Sum up file contents
+# tools used
+  - Django
+  - Python
+  - Cohere( for API key)
+  - VS Code
+  - Microsoft Copilot
